@@ -1,0 +1,89 @@
+{
+  "HMM (from scratch)": {
+    "threshold": 0.05,
+    "val": {
+      "precision": 0.924,
+      "fault_recall": 0.7451612903225806,
+      "f1": 0.8250000000000001,
+      "false_positive_rate": 0.011892343000208638,
+      "engine_recall": 1.0,
+      "engines_in_fault_zone": 30,
+      "engines_alerted": 30,
+      "n_engines": 30,
+      "mean_lead_time": 24.0,
+      "median_lead_time": 22.0,
+      "early_alerts_gt100": 0
+    },
+    "test": {
+      "precision": 0.7740384615384616,
+      "fault_recall": 0.48493975903614456,
+      "f1": 0.5962962962962963,
+      "false_positive_rate": 0.0036822312754622374,
+      "engine_recall": 0.6,
+      "engines_in_fault_zone": 25,
+      "engines_alerted": 16,
+      "n_engines": 100,
+      "mean_lead_time": 27.125,
+      "median_lead_time": 23.5,
+      "early_alerts_gt100": 0
+    }
+  },
+  "GMM (no temporal model)": {
+    "threshold": 0.05,
+    "val": {
+      "precision": 0.9103869653767821,
+      "fault_recall": 0.4806451612903226,
+      "f1": 0.6291344123856439,
+      "false_positive_rate": 0.00918005424577509,
+      "engine_recall": 0.5666666666666667,
+      "engines_in_fault_zone": 30,
+      "engines_alerted": 17,
+      "n_engines": 30,
+      "mean_lead_time": 27.88235294117647,
+      "median_lead_time": 29.0,
+      "early_alerts_gt100": 0
+    },
+    "test": {
+      "precision": 1.0,
+      "fault_recall": 0.33433734939759036,
+      "f1": 0.5011286681715575,
+      "false_positive_rate": 0.0,
+      "engine_recall": 0.32,
+      "engines_in_fault_zone": 25,
+      "engines_alerted": 8,
+      "n_engines": 100,
+      "mean_lead_time": 25.25,
+      "median_lead_time": 26.0,
+      "early_alerts_gt100": 0
+    }
+  },
+  "PC1 threshold": {
+    "threshold": 3.0848873811854154,
+    "val": {
+      "precision": 0.8253638253638254,
+      "fault_recall": 0.853763440860215,
+      "f1": 0.8393234672304439,
+      "false_positive_rate": 0.03505111621114125,
+      "engine_recall": 1.0,
+      "engines_in_fault_zone": 30,
+      "engines_alerted": 30,
+      "n_engines": 30,
+      "mean_lead_time": 31.066666666666666,
+      "median_lead_time": 29.0,
+      "early_alerts_gt100": 0
+    },
+    "test": {
+      "precision": 0.5561097256857855,
+      "fault_recall": 0.6716867469879518,
+      "f1": 0.6084583901773534,
+      "false_positive_rate": 0.013945471638984644,
+      "engine_recall": 0.72,
+      "engines_in_fault_zone": 25,
+      "engines_alerted": 20,
+      "n_engines": 100,
+      "mean_lead_time": 39.25,
+      "median_lead_time": 30.0,
+      "early_alerts_gt100": 1
+    }
+  }
+}
