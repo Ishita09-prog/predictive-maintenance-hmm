@@ -2,6 +2,8 @@
 
 **Unit 4 – Sequential Data · Industry-Oriented Project 1** · SRM Institute of Science and Technology, Kattankulatham
 
+**Team:** Sai Ishita Chilukuri (RA2411003010608) · Himanshu Roy (RA2411003010614) · Munish Abhiram B (RA2411003010629) · Shriyans Patro (RA2411003010636)
+
 Detect latent machine-health conditions and warn before failure using a **Hidden Markov Model** whose
 **Forward / Backward / Forward-Backward / Viterbi / Baum-Welch** algorithms are implemented from scratch in NumPy
 and verified against `hmmlearn`.
