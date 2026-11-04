@@ -1,6 +1,6 @@
 # Intelligent Predictive Maintenance and Machine Failure Monitoring System (HMM)
 
-**Unit 4 – Sequential Data · Industry-Oriented Project 1** · SRM Institute of Science and Technology, Kattankulatham
+**Unit 4 – Sequential Data · Industry-Oriented Project 1** · SRM Institute of Science and Technology, Kattankulathur
 
 **Team:** Sai Ishita Chilukuri (RA2411003010608) · Himanshu Roy (RA2411003010614) · Munish Abhiram B (RA2411003010629) · Shriyans Patro (RA2411003010636)
 
